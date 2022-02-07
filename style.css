@@ -3,8 +3,29 @@
   margin: 0;
   box-sizing: border-box;
 }
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  position: sticky;
+  top: 0;
+}
+.navbar ul li a {
+  color: white;
+  padding: 8px 25px;
+}
+.navbar ul li {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
 body {
-  background-color: rebeccapurple;
+  background-color: white;
   padding: 50px 50px 0 50px;
 }
 header {
@@ -19,13 +40,8 @@ header h1 {
 h3 {
   font-size: 1em;
   font-weight: bold;
-  width: 30px;
-  height: 30px;
 }
 
-.project img {
-  margin-bottom: 50px;
-}
 footer {
   padding: 30px;
 }
